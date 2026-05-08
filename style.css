@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family:'Times New Roman', Times;
+}
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 160px;
+    color: white;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+}
+
+a{
+    text-decoration:none ;
+    color:#CBD5E1;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    padding: 40px 150px;
+    gap: 36px;
+    margin-bottom: 8px;
+}
+
+.hero-text{
+    width: 50%;
+    margin-left:8px ;
+}
+
+.hero-heading{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-subtext{
+    color: #CBD5E1;
+}
+
+.hero-image{
+    background-color: black;
+    width: 50%;
+    height: 200px;
+}
+
+.sign-up{
+    background-color:#3882F6 ;
+    border-radius: 6px;
+    border:1px solid black;
+    padding: 6px 16px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top:8px;
+}
+
+.sign-up:hover{
+    cursor: pointer;
+}
+
+.random-info{
+    text-align: center;
+    font-size:36px;
+    color:#1F2937;
+    font-weight:900;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 26px;
+    height: 250px;
+}
+
+.card-item{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.card-item div{
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius:8px;
+}
+
+.card-item p{
+    text-align: center;
+}
+
+.quote-container{
+    background-color:#e4e6eb ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 46px;
+    height: 250px;
+}
+
+.quote-container div{
+    width:500px;
+}
+.quote{
+     font-size: 26px;
+     color: #1f2937;
+}
+
+h3{
+    margin-left:300px ;
+}
+
+.last-section{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-up{
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    padding: 36px;
+    border-radius: 8px;
+}
+
+.sign-up-two{
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 4px 12px;
+    color: #e4e6eb;
+    font-weight: 500;
+}
+
+.sign-up-two:hover{
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: whitesmoke;
+    text-align: center;
+    padding: 24px;
+}
